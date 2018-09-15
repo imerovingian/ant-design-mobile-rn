@@ -924,6 +924,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
@@ -942,10 +943,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fenby.smallpromisetest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenby.antd;
 				PRODUCT_NAME = "antd-mobile-rn";
-				PROVISIONING_PROFILE = "53e4f386-5fb9-44f5-a833-a4e978cfccef";
-				PROVISIONING_PROFILE_SPECIFIER = smallpromise_dev_20180823;
+				PROVISIONING_PROFILE = "b068f2a9-67e8-4294-90cf-6af6829ec189";
+				PROVISIONING_PROFILE_SPECIFIER = antd_dev_20180915;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -972,10 +973,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fenby.smallpromisetest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenby.antd;
 				PRODUCT_NAME = "antd-mobile-rn";
-				PROVISIONING_PROFILE = "58fe81bf-595a-4989-9988-a661b6e6ea5e";
-				PROVISIONING_PROFILE_SPECIFIER = smallpromise_product_20180823;
+				PROVISIONING_PROFILE = "732cd7cb-ef67-47eb-aa79-b6c4599a2f26";
+				PROVISIONING_PROFILE_SPECIFIER = antd_product_20180915;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

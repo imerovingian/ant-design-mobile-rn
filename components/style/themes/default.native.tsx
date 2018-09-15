@@ -24,6 +24,7 @@ export default {
   fill_body: '#f5f5f9',                        // 页面背景
   fill_tap: '#dddddd',                            // 组件默认背景 _ 按下
   fill_disabled: '#dddddd',                       // 通用失效背景
+  sp_fill_disabled: '#DCDCDC',                       // 通用失效背景
   fill_mask: 'rgba(0, 0, 0, .4)',              // 遮罩背景
   color_icon_base: '#cccccc',                     // 许多小图标的背景，比如一些小圆点，加减号
   fill_grey: '#f7f7f7',
@@ -109,6 +110,8 @@ export default {
   button_height_sm: 23,
   button_font_size_sm: 12,
 
+  button_height_sp: 48,
+
   primary_button_fill: brandPrimary,
   primary_button_fill_tap: '#0e80d2',
 
@@ -120,6 +123,9 @@ export default {
 
   link_button_fill_tap: '#dddddd',
   link_button_font_size: 16,
+
+  sp_button_fill: '#0ABFD6',
+  sp_button_fill_tap: '#2FAFD6',
 
   // modal
   modal_font_size_heading: 18,

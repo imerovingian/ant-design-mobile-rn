@@ -13,6 +13,10 @@ export default {
     backgroundColor: variables.primary_button_fill_tap,
     borderColor: variables.primary_button_fill,
   },
+  spHighlight: {
+    backgroundColor: variables.sp_button_fill_tap,
+    borderColor: variables.sp_button_fill,
+  },
   ghostHighlight: {
     backgroundColor: 'transparent',
     borderColor: variables.ghost_button_fill_tap,
@@ -45,6 +49,15 @@ export default {
     backgroundColor: variables.primary_button_fill,
     borderColor: variables.primary_button_fill,
   },
+  spRaw: {
+    height: variables.button_height_sp,
+    paddingLeft: variables.h_spacing_lg,
+    paddingRight: variables.h_spacing_lg,
+    backgroundColor: variables.sp_button_fill,
+    borderColor: variables.sp_button_fill,
+    borderRadius: 100,
+  },
+
   ghostRaw: {
     backgroundColor: 'transparent',
     borderColor: variables.ghost_button_color,
@@ -60,6 +73,10 @@ export default {
   primaryDisabledRaw: {
     opacity: 0.4,
   },
+  spDisabledRaw: {
+    backgroundColor: variables.sp_fill_disabled,
+    borderColor: variables.sp_fill_disabled,
+  },
   ghostDisabledRaw: {
     borderColor: `${variables.color_text_base}1A`, // alpha 10%  https://codepen.io/chriscoyier/pen/XjbzAW
   },
@@ -70,6 +87,9 @@ export default {
     color: variables.color_text_base,
   },
   primaryHighlightText: {
+    color: `${variables.color_text_base_inverse}4D`, // alpha 30%  https://codepen.io/chriscoyier/pen/XjbzAW
+  },
+  spHighlightText: {
     color: `${variables.color_text_base_inverse}4D`, // alpha 30%  https://codepen.io/chriscoyier/pen/XjbzAW
   },
   ghostHighlightText: {
@@ -90,6 +110,11 @@ export default {
   primaryRawText: {
     color: variables.color_text_base_inverse,
   },
+  spRawText: {
+    color: variables.color_text_base_inverse,
+    fontFamily: 'PingFangSC-Semibold',
+    fontSize: 16,
+  },
   ghostRawText: {
     color: variables.ghost_button_color,
   },
@@ -100,6 +125,9 @@ export default {
     color: `${variables.color_text_base}4D`, // alpha 30%  https://codepen.io/chriscoyier/pen/XjbzAW
   },
   primaryDisabledRawText: {
+    color: `${variables.color_text_base_inverse}99`, // alpha 60%  https://codepen.io/chriscoyier/pen/XjbzAW
+  },
+  spDisabledRawText: {
     color: `${variables.color_text_base_inverse}99`, // alpha 60%  https://codepen.io/chriscoyier/pen/XjbzAW
   },
   ghostDisabledRawText: {

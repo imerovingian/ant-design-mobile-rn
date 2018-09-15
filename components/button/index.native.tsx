@@ -25,7 +25,7 @@ export default class Button extends React.Component<ButtonProps, any> {
   static defaultProps = {
     pressIn: false,
     disabled: false,
-    activeStyle: {},
+    activeStyle: false,
     loading: false,
 
     onClick: (_?: any) => {},
